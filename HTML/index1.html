@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Христофоров Андрей</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      button {
+        border-radius: 12px;
+        width: 11.3%;
+        background-color: #DCDCDC;
+        color: #000000;
+        margin-left: 42px;
+        border: 1px solid black;
+      }
+      button:hover {
+        background-color: #C0C0C0;
+        transition: 1.5s easy;
+        cursor: pointer;
+      }
+      .rounded-img{
+        width: 300px;
+        border-radius: 300px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 2.5);
+        padding: 0.1em;
+      }
+    </style>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body background="images/5.jpg">
+    <div class="container">
+        <h1>Всем привет,<br />меня зовут Андрей!</h1>
+        <hr />
+        <p>
+          <b>Немного фактов обо мне.</b><br />
+          <ol style="font-family: 'Times New Roman', Times, serif;">
+            <li>Решил завязать с морской профессией ради QA</li>
+            <li>Любитель квест комнат</li>
+            <li>Увлекаюсь спортом</li>
+          </ol>
+        </p>
+        <hr />
+        <p>
+          <img class="rounded-img" src="images/Profile.jpg" alt="JohnyB" width="20%" height="20%" />
+        </p>
+        <h3 style="color: rgba(47, 0, 255, 0.997)">Угадайте место по фото?</h3>
+        <p><input type="text" placeholder="Ответ" /></p>
+        <button><b>Отправить</b></button>
+        <p>
+        </p>
+        <div class="spinner">
+        </div>
+        .spinner {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          background: conic-gradient(
+            #0000 10%,
+            #8f44fd
+          );
+          -webkit-mask:
+          radial-gradient(
+            farthest-side,
+            #0000 cals(100% - 10px),
+            #00000
+          );
+          animation: spin 0.8s infinite linear;
+        }
+        @keyframes spin{
+          to {
+            transform: rotate(1turn)
+          }
+        }
+        <p>   
+          <a  button class="btn btn-primary" href="mailto:johnyharker@gmail.com?subject=Вопрос по HTML"
+            >E-mail для связи</a>
+            <a button class="btn btn-secondary" target="_blank" href="https://www.instagram.com/khrystoforovandrey/"
+            >Instagram</a>
+        </p>
+    </div>
+</body>
+</html>
